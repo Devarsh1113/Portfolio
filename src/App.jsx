@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import About from './components/About'
+import Technolgies from './components/Technolgies'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
 const App = () => {
   return (
     <div className="overflow-x-hidden antialiased selection:bg-green-300 selection:text-green-700">
@@ -10,6 +14,10 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar />
         <Home />
+        <About />
+        <Technolgies />
+        <Experience/>
+        <Projects/>
       </div>
     </div>
   )
